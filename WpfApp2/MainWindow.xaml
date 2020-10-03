@@ -11,7 +11,7 @@
             <RowDefinition Height="203*"/>
             <RowDefinition Height="216*"/>
         </Grid.RowDefinitions>
-        <WrapPanel Margin="13,-1,1,7" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Height="413" VerticalAlignment="Bottom">
+        <WrapPanel Margin="13,-1,0,7" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Height="413" VerticalAlignment="Bottom">
             <WrapPanel.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
