@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="203*"/>
+            <RowDefinition Height="216*"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Margin="13,-1,1,7" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Height="413" VerticalAlignment="Bottom">
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.032"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
+            <Button Content="Aqua" Width="75" Foreground="Aqua"/>
+            <Button Content="Blue" Width="75" Foreground="Blue"/>
+            <Button Content="Red" Width="75" Foreground="Red"/>
+            <Button Content="Gray" Width="75" Foreground="Gray"/>
+            <Button Content="Green" Width="75" Foreground="Green"/>
+            <Button Content="Chartreuse" Width="75" Foreground="Chartreuse"/>
+            <Button Content="BlueViolet" Width="75" Foreground="BlueViolet"/>
+            <Button Content="BlueViolet" Width="75" Foreground="BlueViolet"/>
+            <Button Content="Aqua" Width="75" Foreground="Aqua"/>
+            <Button Content="Black" Width="75" Foreground="Black"/>
+            <Button Content="Azure" Width="75" Foreground="Azure"/>
+            <Button Content="Aquamarine" Width="75" Foreground="Aquamarine"/>
+            <Button Content="Bisque" Width="75" Foreground="Bisque"/>
+            <Button Content="Azure" Width="75" Foreground="Azure"/>
+            <Button Content="BlueViolet" Width="75" Foreground="BlueViolet"/>
+            <Button Content="BurlyWood" Width="75" Foreground="BurlyWood"/>
+            <Button Content="Blue" Width="75" Foreground="Blue"/>
+            <Button Content="Red" Width="75" Foreground="Red"/>
+
+        </WrapPanel>
+
+    </Grid>
+</Window>
